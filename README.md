@@ -64,7 +64,7 @@ class Attributes(Tekky):
 </p>
 
 <p href="https://discord.gg/onlp" align="center">
-    <img alt="" src=https://github-readme-stats.vercel.app/api?username=xtekky&show_icons=true&theme=tokyonight>
+    <img alt="" src="https://github-readme-stats.vercel.app/api?username=xtekky&theme=tokyonight&show_icons=true">
 </p>
 
 
