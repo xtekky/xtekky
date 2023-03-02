@@ -13,7 +13,6 @@ new discord server: https://discord.gg/onlp
 
 ```python
 class Attributes(Tekky):
-
 	@staticmethod
 	def contact() -> tuple:
 	    discord  = "tekky#2229"
