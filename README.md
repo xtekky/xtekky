@@ -16,7 +16,6 @@ class Attributes(Tekky):
 	def __init__(self) -> None:
 	    pass
 	
-	@staticmethod
 	def contact(self) -> tuple:
 	    discord  = "tekky#2229"
 	    telegram = "t.me/xtekky"
@@ -24,7 +23,6 @@ class Attributes(Tekky):
 	    
 	    return discord, telegram, proton
 	
-	@staticmethod
 	def life(self) -> tuple:
 		langs         = ['French', 'German', 'Spanish', 'English']
 		nationalities = self.langs.remove('French', 'English').append('Korean')
@@ -32,7 +30,6 @@ class Attributes(Tekky):
 		
 		return langs, nationalities, age
 	
-	@staticmethod
 	def coding(self) -> tuple:
 		langs = {
 			'expert':   ['python'],
@@ -44,7 +41,6 @@ class Attributes(Tekky):
 		
 		return langs, specialities, environnement
 	
-	@staticmethod
 	def projects(self) -> tuple:
 		discord   = ['HQ Gen', 'Raid Toolkit']
 		tiktok    = ['view bot', 'Algorithms']
