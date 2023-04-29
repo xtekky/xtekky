@@ -36,20 +36,10 @@ class Attributes(Tekky):
 			'intermediate': ['go', 'js'],
 			'learning': ['c', 'c++', 'c#', 'asm', 'java']
 		}
-		specialities  = ['web/app reverse engineering', 'fullstack', 'skidding (joke)']
-		environnement = ['vscode', 'pycharm']
+		specialities  = ['web/app reverse engineering', 'fullstack']
+		environnement = ['vscode']
 		
 		return langs, specialities, environnement
-	
-	@staticmethod
-	def projects() -> tuple:
-		discord   = ['HQ Gen', 'Raid Toolkit']
-		tiktok    = ['view bot', 'Algorithms']
-		instagram = ['Gen', 'Botting']
-		twitch    = ['Free Gen', 'Everything u can think of']
-		website   = ['tikstats.io', 'tikbotting.com']
-		
-		return discord, tiktok, instagram, twitch, website
 
 ```
 <h2 align="center">Skills </h2>
