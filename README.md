@@ -17,17 +17,16 @@ class Attributes(Tekky):
 	def contact() -> tuple:
 	    discord  = "tekky#1810"
 	    telegram = "t.me/xtekky"
-	    proton   = "xtekky@protonmail.com"
+	    proton   = "github@g4f.ai"
 	    
 	    return discord, telegram, proton
 	
 	@staticmethod
 	def life() -> tuple:
 		langs         = ['French', 'German', 'Spanish', 'English']
-		nationalities = self.langs.remove('French', 'English').append('Korean')
 		age           = 17
 		
-		return langs, nationalities, age
+		return langs, age
 	
 	@staticmethod
 	def coding() -> tuple:
