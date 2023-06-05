@@ -12,7 +12,7 @@
 </p>
 
 ```python
-class Attributes(Tekky):
+class Tekky(User):
 	@staticmethod
 	def contact() -> tuple:
 	    discord  = "tekky#1810"
