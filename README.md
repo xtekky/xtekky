@@ -7,7 +7,7 @@
     <img alt="" src=https://komarev.com/ghpvc/?username=xtekky&style=for-the-badge />
 </p> -->
 
-<p href="https://discord.gg/onlp" align="center">
+<p href="https://discord.gg/onlpx" align="center">
     <img alt="" src=https://lanyard.cnrad.dev/api/840541540203626516/>
 </p>
 
@@ -15,7 +15,7 @@
 class Attributes(Tekky):
 	@staticmethod
 	def contact() -> tuple:
-	    discord  = "tekky#1810"
+	    discord  = "tekky#6177"
 	    telegram = "t.me/xtekky"
 	    proton   = "github@g4f.ai"
 	    
