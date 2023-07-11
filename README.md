@@ -1,4 +1,4 @@
-<!-- new discord server: https://discord.gg/onlp -->
+new discord server: https://discord.gg/onlpx
 <!-- Hi skid <3 -->
 <h2 align="center">Telegram <img src="https://s8.gifyu.com/images/979447220829032478.gif" height="25px"> Group -  <a href="https://t.me/onlpx">t.me/onlpx</a></h2>
 
@@ -7,8 +7,8 @@
     <img alt="" src=https://komarev.com/ghpvc/?username=xtekky&style=for-the-badge />
 </p> -->
 
-<p href="https://discord.gg/onlpx" align="center">
-    <img alt="" src=https://lanyard.cnrad.dev/api/840541540203626516/>
+<p href="https://discord.gg/onlp" align="center">
+    <img alt="" src=https://lanyard.cnrad.dev/api/1115378147630788618/>
 </p>
 
 ```python
