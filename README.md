@@ -13,7 +13,7 @@ new discord server: https://discord.gg/onlpx
 
 ```python
 class Attributes(Tekky):
-	@staticmethod
+	@property
 	def contact() -> tuple:
 	    discord  = "tekky#6177"
 	    telegram = "t.me/xtekky"
@@ -21,14 +21,14 @@ class Attributes(Tekky):
 	    
 	    return discord, telegram, proton
 	
-	@staticmethod
+	@property
 	def life() -> tuple:
 		langs         = ['French', 'German', 'Spanish', 'English']
 		age           = 17
 		
 		return langs, age
 	
-	@staticmethod
+	@property
 	def coding() -> tuple:
 		langs = {
 			'expert':   ['python'],
