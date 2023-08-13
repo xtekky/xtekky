@@ -20,7 +20,7 @@ class Attributes(Tekky):
 	def contact() -> tuple:
 	    discord  = "tekky#6177"
 	    telegram = "t.me/xtekky"
-	    email   = "github@g4f.ai"
+	    email    = "github@g4f.ai"
 	    
 	    return discord, telegram, proton
 	
