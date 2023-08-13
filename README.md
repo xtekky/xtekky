@@ -1,7 +1,3 @@
-new discord server: https://discord.gg/onlpx
-<!-- Hi skid <3 -->
-<h2 align="center">Telegram <img src="https://s8.gifyu.com/images/979447220829032478.gif" height="25px"> Group -  <a href="https://t.me/onlpx">t.me/onlpx</a></h2>
-
 <!-- <p align="center">
     <img alt="" src=https://img.shields.io/github/stars/xtekky?style=for-the-badge&?affiliations=OWNER%2CCOLLABORATOR />
     <img alt="" src=https://komarev.com/ghpvc/?username=xtekky&style=for-the-badge />
@@ -13,6 +9,11 @@ new discord server: https://discord.gg/onlpx
 
 ```python
 class Attributes(Tekky):
+	@staticmethod
+	def channels() -> tuple:
+            discord  = "discord.gg/onlpx"
+	    telegram = "t.me/onlpx"
+
 	@staticmethod
 	def contact() -> tuple:
 	    discord  = "tekky#6177"
