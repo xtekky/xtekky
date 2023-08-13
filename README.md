@@ -14,6 +14,8 @@ class Attributes(Tekky):
             discord  = "discord.gg/onlpx"
 	    telegram = "t.me/onlpx"
 
+            return discord, telegram
+
 	@staticmethod
 	def contact() -> tuple:
 	    discord  = "tekky#6177"
