@@ -8,31 +8,26 @@
 </p>
 
 ```python
+from typing import Tuple
+
 class Attributes(Tekky):
-	@staticmethod
-	def channels() -> tuple:
-            discord  = "discord.gg/onlpx"
-	    telegram = "t.me/onlpx"
-
-            return discord, telegram
-
-	@staticmethod
-	def contact() -> tuple:
+	@property
+	def contact() -> Tuple[str, str, str]:
 	    discord  = "tekky#6177"
 	    telegram = "t.me/xtekky"
 	    email    = "github@g4f.ai"
 	    
 	    return discord, telegram, proton
 	
-	@staticmethod
-	def life() -> tuple:
+	@property
+	def life() -> Tuple[list, int]:
 		langs         = ['French', 'German', 'Spanish', 'English']
 		age           = 17
 		
 		return langs, age
 	
-	@staticmethod
-	def coding() -> tuple:
+	@property
+	def coding() -> Tuple[dict, list, list]:
 		langs = {
 			'expert':   ['python'],
 			'intermediate': ['go', 'js'],
