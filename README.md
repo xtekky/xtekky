@@ -1,7 +1,3 @@
-new discord server: https://discord.gg/onlpx
-<!-- Hi skid <3 -->
-<h2 align="center">Telegram <img src="https://s8.gifyu.com/images/979447220829032478.gif" height="25px"> Group -  <a href="https://t.me/onlpx">t.me/onlpx</a></h2>
-
 <!-- <p align="center">
     <img alt="" src=https://img.shields.io/github/stars/xtekky?style=for-the-badge&?affiliations=OWNER%2CCOLLABORATOR />
     <img alt="" src=https://komarev.com/ghpvc/?username=xtekky&style=for-the-badge />
@@ -12,24 +8,26 @@ new discord server: https://discord.gg/onlpx
 </p>
 
 ```python
+from typing import Tuple
+
 class Attributes(Tekky):
 	@property
-	def contact() -> tuple:
+	def contact() -> Tuple[str, str, str]:
 	    discord  = "tekky#6177"
 	    telegram = "t.me/xtekky"
-	    proton   = "github@g4f.ai"
+	    email    = "github@g4f.ai"
 	    
 	    return discord, telegram, proton
 	
 	@property
-	def life() -> tuple:
+	def life() -> Tuple[list, int]:
 		langs         = ['French', 'German', 'Spanish', 'English']
 		age           = 17
 		
 		return langs, age
 	
 	@property
-	def coding() -> tuple:
+	def coding() -> Tuple[dict, list, list]:
 		langs = {
 			'expert':   ['python'],
 			'intermediate': ['go', 'js'],
