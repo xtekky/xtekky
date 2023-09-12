@@ -3,9 +3,8 @@
     <img alt="" src=https://komarev.com/ghpvc/?username=xtekky&style=for-the-badge />
 </p> -->
 
-<p href="https://discord.gg/onlp" align="center">
-    <img alt="" src=https://lanyard.cnrad.dev/api/1115378147630788618/>
-</p>
+
+<h2 align="center">About Me </h2>
 
 ```python
 from typing import Tuple
@@ -49,6 +48,10 @@ class Attributes(Tekky):
 
 <p href="https://discord.gg/onlp" align="center">
     <img alt="" src="https://github-readme-stats.vercel.app/api?username=xtekky&theme=tokyonight&show_icons=true">
+</p>
+
+<p href="https://discord.gg/onlp" align="center">
+    <img alt="" src=https://lanyard.cnrad.dev/api/1115378147630788618/>
 </p>
 
 
