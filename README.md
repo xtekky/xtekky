@@ -12,7 +12,7 @@ from typing import Tuple
 class Attributes(Tekky):
 	@property
 	def contact() -> Tuple[str, str, str]:
-	    discord  = "tekky#6177"
+	    discord  = "tekkyuwu"
 	    telegram = "t.me/xtekky"
 	    email    = "github@g4f.ai"
 	    
