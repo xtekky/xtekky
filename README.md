@@ -14,6 +14,7 @@ class Attributes(Tekky):
 	def contact() -> Tuple[str, str, str]:
 	    discord  = "tekkyuwu"
 	    telegram = "t.me/xtekky"
+            channel  = "t.me/onlpx"
 	    email    = "github@g4f.ai"
 	    
 	    return discord, telegram, proton
