@@ -7,35 +7,38 @@
 <h2 align="center">About Me </h2>
 
 ```python
-from typing import Tuple
+from typing import Tuple, List, Dict
+
+class Tekky:
+    pass
 
 class Attributes(Tekky):
-	@property
-	def contact() -> Tuple[str, str, str]:
-	    discord  = "tekky#6177"
-	    telegram = "t.me/xtekky"
-	    email    = "github@g4f.ai"
-	    
-	    return discord, telegram, proton
-	
-	@property
-	def life() -> Tuple[list, int]:
-		langs         = ['French', 'German', 'Spanish', 'English']
-		age           = 17
-		
-		return langs, age
-	
-	@property
-	def coding() -> Tuple[dict, list, list]:
-		langs = {
-			'expert':   ['python'],
-			'intermediate': ['go', 'js'],
-			'learning': ['c', 'c++', 'c#', 'asm', 'java']
-		}
-		specialities  = ['web/app reverse engineering', 'fullstack']
-		environnement = ['vscode']
-		
-		return langs, specialities, environnement
+    @property
+    def contact(self) -> Tuple[str, str, str]:
+        discord = "tekky#6177"
+        telegram = "t.me/xtekky"
+        email = "github@g4f.ai"
+        
+        return discord, telegram, email
+
+    @property
+    def life(self) -> Tuple[List[str], int]:
+        langs = ['French', 'German', 'Spanish', 'English']
+        age = 17
+        
+        return langs, age
+
+    @property
+    def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str]]:
+        langs = {
+            'expert': ['python'],
+            'intermediate': ['go', 'js'],
+            'learning': ['c', 'c++', 'c#', 'asm', 'java']
+        }
+        specialties = ['web/app reverse engineering', 'fullstack']
+        environment = ['vscode']
+        
+        return langs, specialties, environment
 
 ```
 <h2 align="center">Skills </h2>
