@@ -17,29 +17,29 @@ class Attributes(Tekky):
 	def contact(self) -> Tuple[str, str, str]:
 	    discord  = "tekkyuwu"
 	    telegram = "t.me/xtekky"
-      channel  = "t.me/onlpx"
+            channel  = "t.me/onlpx"
 	    email    = "github@g4f.ai"
 	    
 	    return discord, telegram, proton
 	
 	@property
 	def life(self) -> Tuple[List[str], int]:
-		langs = ['French', 'German', 'Spanish', 'English']
-		age   = 17
+	    langs = ['French', 'German', 'Spanish', 'English']
+	    age   = 17
 		
-		return langs, age
+	    return langs, age
 	
 	@property
 	def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str]]:
-		langs = {
-			'expert'      : ['python'],
-			'intermediate': ['go', 'js'],
-			'learning'    : ['c', 'c++', 'c#', 'asm', 'java']
-		}
-		specialities  = ['web/app reverse engineering', 'fullstack']
-		environnement = ['vscode']
-		
-		return langs, specialities, environnement
+            langs = {
+                'expert'      : ['python'],
+		'intermediate': ['go', 'js'],
+		'learning'    : ['c', 'c++', 'c#', 'asm', 'java']
+  	    }
+	    specialities  = ['web/app reverse engineering', 'fullstack']
+	    environnement = ['vscode']
+
+	    return langs, specialities, environnement
 
 ```
 <h2 align="center">Skills </h2>
