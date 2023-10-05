@@ -7,31 +7,34 @@
 <h2 align="center">About Me </h2>
 
 ```python
-from typing import Tuple
+from typing import Tuple, List, Dict
+
+class Tekky:
+    pass
 
 class Attributes(Tekky):
 	@property
-	def contact() -> Tuple[str, str, str]:
+	def contact(self) -> Tuple[str, str, str]:
 	    discord  = "tekkyuwu"
 	    telegram = "t.me/xtekky"
-            channel  = "t.me/onlpx"
+      channel  = "t.me/onlpx"
 	    email    = "github@g4f.ai"
 	    
 	    return discord, telegram, proton
 	
 	@property
-	def life() -> Tuple[list, int]:
-		langs         = ['French', 'German', 'Spanish', 'English']
-		age           = 17
+	def life(self) -> Tuple[List[str], int]:
+		langs = ['French', 'German', 'Spanish', 'English']
+		age   = 17
 		
 		return langs, age
 	
 	@property
-	def coding() -> Tuple[dict, list, list]:
+	def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str]]:
 		langs = {
-			'expert':   ['python'],
+			'expert'      : ['python'],
 			'intermediate': ['go', 'js'],
-			'learning': ['c', 'c++', 'c#', 'asm', 'java']
+			'learning'    : ['c', 'c++', 'c#', 'asm', 'java']
 		}
 		specialities  = ['web/app reverse engineering', 'fullstack']
 		environnement = ['vscode']
