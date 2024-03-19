@@ -15,12 +15,11 @@ class Tekky:
 class Attributes(Tekky):
     @property
     def contact(self) -> Tuple[str, str, str]:
-        discord  = "tekkyuwu"
         telegram = "t.me/xtekky"
         channel  = "t.me/onlpx"
         email    = "github@g4f.ai"
 	    
-	    return discord, telegram, proton
+	    return telegram, channel, email
 
     @property
     def life(self) -> Tuple[List[str], int]:
@@ -56,5 +55,3 @@ class Attributes(Tekky):
 <p href="https://discord.gg/onlp" align="center">
     <img alt="" src=https://lanyard.cnrad.dev/api/1115378147630788618/>
 </p>
-
-
