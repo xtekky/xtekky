@@ -36,7 +36,7 @@ class Attributes(Tekky):
             'learning'    : ['c', 'c++', 'c#', 'asm', 'java']
         }
         specialities  = ['web/app reverse engineering', 'fullstack', 'ai']
-	environnement = ['vscode']
+        environnement = ['vscode']
 
 	return langs, specialities, environnement
 ```
