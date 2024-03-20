@@ -56,6 +56,10 @@ class Attributes(Tekky):
 
 	return langs, specialities, ide, pc
 ```
+
+_ranked 4th for most contributions made by independent developers to AI open source & decentralisation ([source](https://huyenchip.com/2024/03/14/ai-oss.html))_   
+_gpt4free is a top #200 repository on github ~ ([source](https://top1000repos.com/))_
+
 <h2 align="center">Skills </h2>
 
 <p align="center">
