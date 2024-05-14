@@ -19,7 +19,7 @@ class Attributes(Tekky):
         channel  = "t.me/onlpx"
         email    = "github@g4f.ai"
 	    
-	    return telegram, channel, email
+        return telegram, channel, email
 
     @property
     def life(self) -> Tuple[List[str], int]:
