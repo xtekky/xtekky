@@ -3,6 +3,7 @@
     <img alt="" src=https://komarev.com/ghpvc/?username=xtekky&style=for-the-badge />
 </p> -->
 
+telegram: [t.me/onlpx](t.me/onlpx)
 
 <h2 align="center">About Me </h2>
 
